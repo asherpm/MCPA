@@ -18,6 +18,7 @@
             background-blend-mode:overlay;
         }
 
+
         .header 
         {
             padding: 80px;
@@ -45,9 +46,10 @@
         {
             overflow: hidden;
             background-color: #333;
-            position: sticky;
-            position: -webkit-sticky;
+            position:relative;
+            position:sticky;
             top: 0;
+            z-index: 9999;
         }
 
             .navbar a 
@@ -131,7 +133,7 @@
         {
             display: block;
         }
-
+      
         .main 
         {
             -ms-flex: 70%;
@@ -140,7 +142,13 @@
             padding: 33px;
             margin-left: 50;
             margin-right: 150;
-            opacity: 1;
+            opacity: 0.95;
+            
+        }
+            .main img 
+        {
+            border: 3px solid #555;
+            position: sticky;
         }
             .main_content1
             {
@@ -170,10 +178,10 @@
         <div class="dropdown">
             <a href="C:/Users/nkonzo/Documents/OnlineTutors/MCPA_Tutors.html" class="dropbtn">Tutors</a>
             <div class="dropdown-content">
-                <a href="/C:/Users/nkonzo/Documents/OnlineTutors/MCPA_Ind_Tutor1.html">Tutor Name 1</a>
-                <a href="/C:/Users/nkonzo/Documents/OnlineTutors/MCPA_Ind_Tutor2.html">Tutor Name 2</a>
-                <a href="/C:/Users/nkonzo/Documents/OnlineTutors/MCPA_Ind_Tutor3.html">Tutor Name 3</a>
-                <a href="/C:/Users/nkonzo/Documents/OnlineTutors/MCPA_Ind_Tutor4.html">Tutor Name 4</a>
+                <a href="/C:/Users/nkonzo/Documents/OnlineTutors/MCPA_Ind_Tutor1.html">Nadia Long</a>
+                <a href="/C:/Users/nkonzo/Documents/OnlineTutors/MCPA_Ind_Tutor2.html">Sandile Thwala</a>
+                <a href="/C:/Users/nkonzo/Documents/OnlineTutors/MCPA_Ind_Tutor3.html">Anele Mkhize</a>
+                <a href="/C:/Users/nkonzo/Documents/OnlineTutors/MCPA_Ind_Tutor4.html">Thabiso Khumalo</a>
             </div>
         </div>
         <a href="/C:/Users/nkonzo/Documents/OnlineTutors/MCPA_About_Us.html" class="right active">About Us</a>
@@ -182,14 +190,17 @@
         <div class="main_content1">
             <p>
                 <p>
-                    << insert paragraph about us >>
+                    OTPA was established in 2020 and is a platform build to empower students. It is a platform that was built by students for students, with the goal of helping those who are struggling to find suitable tutors that will work well with them and understand their needs. This platform was in idea of none other than our very own Sincanyiwe Ntuli, who proposed the idea to the rest of the team, who took heed and decided to take action. The results? OTPA was born.<br/><br/>
+                    <hr style="width:85%;text-align:left;margin-left:0; size: 5px;">
+
+                    <b><u><i style="font-size: 20;">OTPA Team</i></u></b>
                 </p>
-                <br/>
+                
                 <br/>
                 <img src="\C:\Users\nkonzo\Documents\OnlineTutors\Images\DSCN4256.JPG" width="161" height="216"/>
                 <br/>
                 <p>
-                    Nomfanelo Mgoboza<br/>
+                    <b>Nomfanelo Mgoboza</b><br/>
                     Diploma in ICT: Applications Development<br/>
                     Senior Developer<br/>
                     Student No: 21925598<br/>
@@ -199,7 +210,7 @@
                 <img src="\C:\Users\nkonzo\Documents\OnlineTutors\Images\DSCN4330.JPG" width="161" height="216"/>
                 <br/>
                 <p>
-                    Phila Mazibuko<br/>
+                    <b>Phila Mazibuko</b><br/>
                     Diploma in ICT: Applications Development<br/>
                     Junior Developer<br/>
                     Student No: 21936292<br/>
@@ -209,51 +220,44 @@
                 <img src="\C:\Users\nkonzo\Documents\OnlineTutors\Images\Sinca.jpg" width="161" height="216"/>
                 <br/>
                 <p>
-                    Sincanyiwe Ntuli<br/>
+                    <b>Sincanyiwe Ntuli</b><br/>
                     Diploma in ICT: Applications Development<br/>
                     Strategist<br/>
-                    Student No: <br/>
+                    Student No: 21919862<br/>
                 </p>
                 <br/>
                 <br/>
                 <img src="\C:\Users\nkonzo\Documents\OnlineTutors\Images\Sipho.jpg" width="161" height="216"/>
                 <br/>
                 <p>
-                    Siphokazi Gxono<br/>
+                    <b>Siphokazi Gxono</b><br/>
                     Diploma in ICT: Applications Development<br/>
                     Senior Designer<br/>
-                    Student No: <br/>
+                    Student No: 21926108 <br/>
                 </p>
                 <br/>
                 <br/>
-                <img src="\C:\Users\nkonzo\Documents\OnlineTutors\Images\" width="161" height="216"/>
+                <img src="\C:\Users\nkonzo\Documents\OnlineTutors\Images\Simbo.jpg" width="161" height="216"/>
                 <br/>
                 <p>
-                    Simbongile Ngobese<br/>
+                    <b>Simbongile Ngobese</b><br/>
                     Diploma in ICT: Applications Development<br/>
                     Senior Designer<br/>
-                    Student No: <br/>
+                    Student No: 21904046 <br/>
                 </p>
                 <br/>
                 <br/>
                 <img src="\C:\Users\nkonzo\Documents\OnlineTutors\Images\Wendy.JPG" width="161" height="216"/>
                 <br/>
                 <p>
-                    Wendy Nhleko<br/>
+                    <b>Wendy Nhleko</b><br/>
                     Diploma in ICT: Applications Development<br/>
                     Coordinator<br/>
-                    Student No: <br/>
-                </p>
+                    Student No: 21922142<br/>
+                </p>             
                 <br/>
                 <br/>
-                <img src="\C:\Users\nkonzo\Documents\OnlineTutors\Images\" width="161" height="216"/>
-                <br/>
-                <p>
-                    TeeGee<br/>
-                    Diploma in ICT: Applications Development<br/>
-                    Junior Designer<br/>
-                    Student No: <br/>
-                </p>
+                <b>Contact us on +27 31 434 5985</b>
 
             </p>
 
