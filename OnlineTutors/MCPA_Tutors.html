@@ -1,0 +1,279 @@
+﻿<!DOCYPE html>
+<html lang="en">
+<head>
+    <title>OPTA Tutors List</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body 
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+             background-image: url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-blend-mode:overlay;
+        }
+
+        .header 
+        {
+            padding: 80px;
+            text-align: start;
+            background-image: url('https://images.wallpaperscraft.com/image/keyboard_buttons_letters_106299_3840x2400.jpg');
+            background-attachment: scroll;
+            background-color: #20A47A;
+            color: white;
+            background-repeat: no-repeat, repeat;
+            background-blend-mode: color-burn;
+        }
+
+            .header h1 
+            {
+                font-size: 60px;
+            }
+
+            .header h2 
+            {
+                font-size: 20px;
+            }
+         
+
+        .navbar 
+        {
+            overflow: hidden;
+            background-color: #333;
+            position: sticky;
+            position: -webkit-sticky;
+            top: 0;
+            opacity: 1;
+        }
+
+            .navbar a 
+            {
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+            }
+
+                .navbar a.right 
+                {
+                    float: right;
+                }
+
+                .navbar a:hover
+                {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+                .navbar a.active 
+                {
+                    background-color: #666;
+                    color: white;
+                }
+                .navbar img.left
+                {
+                    float: left;
+                }
+
+        
+
+        .dropdown 
+        {
+            float: left;
+            overflow: hidden;
+        }
+
+            .dropdown .dropbtn 
+            {
+                font-size: 16px;
+                border: none;
+                outline: none;
+                color: white;
+                padding: 14px 16px;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+            }
+
+        .dropdown-content 
+        {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            left: 200;
+        }
+
+            .dropdown-content a 
+            {
+                float: left;
+                color: white;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+        dropdown-content a:hover 
+        {
+            background-color: #333;
+        }
+
+        .dropdown:hover .dropdown-content 
+        {
+            display: block;
+        }
+
+        .main 
+        {
+            -ms-flex: 70%;
+            flex: 70%;
+            background-color: #F2F2F2;
+            padding: 33px;
+            margin-left: 50;
+            margin-right: 150;
+            opacity: 0.94;
+        }
+            .main_content1
+            {
+                margin-left: 100px;
+                margin-right: 150px;
+            }
+            table 
+            {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            td, th 
+            {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+            }
+
+            tr:nth-child(even) 
+            {
+                background-color: #dddddd;
+            }
+            
+        @media screen and (max-width: 395px) 
+        {
+            .navbar a 
+            {
+                float: none;
+                width: 95%;
+
+            }
+        }
+    </style>
+</head>
+<body bgcolor="teal">
+    <div class="header">
+        <h1><b>Online Private Tutors Academy</b></h1>
+        <h2 style="text-align:inherit"><b>Power</b> of Online Learning</h2>
+    </div>
+    <div class="navbar">
+        <img src="C:\Users\nkonzo\Documents\OnlineTutors\Logo\Logo.png" class="left" width="40" height="40"/>
+        <a href="C:/Users/nkonzo/Documents/OnlineTutors/MCPA_Home_Page.html"> Home</a>
+        <div class="dropdown">
+            <a href="C:/Users/nkonzo/Documents/OnlineTutors/MCPA_Tutors.html" class="dropbtn active">Tutors</a>
+            <div class="dropdown-content">
+                <a href="/C:/Users/nkonzo/Documents/OnlineTutors/MCPA_Ind_Tutor1.html">Tutor Name 1</a>
+                <a href="/C:/Users/nkonzo/Documents/OnlineTutors/MCPA_Ind_Tutor2.html">Tutor Name 2</a>
+                <a href="/C:/Users/nkonzo/Documents/OnlineTutors/MCPA_Ind_Tutor3.html">Tutor Name 3</a>
+                <a href="/C:/Users/nkonzo/Documents/OnlineTutors/MCPA_Ind_Tutor4.html">Tutor Name 4</a>
+            </div>
+        </div>
+        <a href="/C:/Users/nkonzo/Documents/OnlineTutors/MCPA_About_Us.html" class="right">About Us</a>
+    </div>
+    <div class="main">
+        <table>
+            <h2 style="color: black;">
+                Available Tutors
+            </h2>
+            <tr>
+              <th>Tutor Name</th>
+              <th>Contact Number</th>
+              <th>Modules offered</th>
+
+            </tr>
+            <tr>
+              <td><a href="file:///C:/Users/nkonzo/Documents/OnlineTutors/MCPA_Ind_Tutor1.html">Nadia Long</a></td>
+              <td><a href="tel:+27615900231">+27 61 590 0231</a></td>
+              <td>
+                    <ul>
+                        <li>APDA101</li>
+                        <li>APDA201</li>
+                        <li>APDP101</li>
+                        <li>ISYS101</li>
+                        <li>ISYA201</li>
+                    </ul>
+                </td>
+
+            </tr>
+            <tr>
+              <td><a href="file:///C:/Users/nkonzo/Documents/OnlineTutors/MCPA_Ind_Tutor2.html">Sandile Thwala</a></td>
+              <td><a href="tel:+27746785575">+27 74 678 5575</a></td>
+              <td>
+                <ul>
+                    <li>APDA301</li>
+                    <li>APDB201</li>
+                    <li>APDP101</li>
+                    <li>APDP201</li>
+                    <li>FCSC101</li>
+                    <li>MWMU101</li>
+                    <li>CNST101</li>
+                    <li>BFND101</li>
+                </ul>
+              </td>
+
+            </tr>
+            <tr>
+              <td><a href="file:///C:/Users/nkonzo/Documents/OnlineTutors/MCPA_Ind_Tutor3.html">Anele Mkhize</a></td>
+              <td><a href="tel:+27834343245">+27 83 434 3245</a></td>
+              <td>
+                <ul>
+                    <li>APDB101</li>
+                    <li>APDB301</li>
+                    <li>APDP301</li>
+                    <li>ISYB301</li>
+                    <li>ISYA301</li>
+                    <li>INMA201</li>
+                    <li>INMB201</li>
+                    <li>CMEP201</li>
+                    <li>ITPM201</li>
+                </ul>
+              </td>
+
+            </tr>
+            <tr>
+                <td><a href="file:///C:/Users/nkonzo/Documents/OnlineTutors/MCPA_Ind_Tutor4.html">Thabiso Khumalo</a></td>
+                <td><a href="tel:+27646386745">+27 64 638 6745</a></td>
+                <td>
+                    <ul>
+                        <li>BFND301</li>
+                        <li>CMNT101</li>
+                        <li>MCPA201</li>
+                        <li>MCPB201</li>
+                        <li>MCPA301</li>
+                    </ul>
+                </td>
+
+            </tr>
+
+        </table>
+
+        
+    </div>
+
+</body>
